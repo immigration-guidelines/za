@@ -1,0 +1,91 @@
+South Africa - published guidance for officials deciding visa, residence and asylum cases
+Checked 2026-11-15. Files are fetched by ../download_za.py (python3 download_za.py).
+
+Result in one sentence
+The Department of Home Affairs (DHA) publishes a thin, unsystematic selection of its
+Immigration Directives and nothing else: no handbook, no standard operating procedure,
+no register of directives. 38 documents were saved (2019 to July 2026); 35 are true
+guidance, but most of them are short concessions, waivers and exemption extensions
+rather than instructions on how to assess a case.
+
+What Immigration Directives are
+Numbered instructions signed by the Minister, the Director-General or the Deputy
+Director-General: Immigration Services, addressed to "all officials of the department",
+head office, ports of entry, missions abroad and the visa facilitation centres (VFS).
+Numbers restart each year and run to at least 24 a year (No. 24 of 2019, No. 22 of
+2025), so the department issues some dozens a year. Two parallel series exist
+("Immigration Directive No. x" and "Minister's Immigration Directive No. x"), which is
+why two different documents can both be "No. 1 of 2022". Only the ones the department
+wants the public to know about are put on its site, under "Notices", as loose PDF files,
+as images (PNG/JPG scans) or as the text of a web page. Some Minister's directives on
+exemption permits are also printed in the Government Gazette.
+
+What is in this folder (see index.tsv; kind and official columns)
+- guidance, official (34): Immigration Directives, Minister's Immigration Directives,
+  two Director-General circulars, ministerial waiver letters and one adjudication
+  spreadsheet tool. Of these:
+    about 8 tell officials how to handle or assess cases (critical skills list
+      implementation 2022, twice; points-based system 2024 with its waiver letters and
+      adjudication spreadsheet; port-of-entry visa requirements for missions 2024;
+      detention forms and procedure after the Constitutional Court order 2024);
+    about 26 are concessions, waivers, withdrawals and extensions of exemption permits
+      (Zimbabwean and Lesotho exemption permits, visa backlog concessions, Covid-19
+      measures) that bind officials but say little about decision-making.
+- guidance, mirror (1): the original Immigration Directive No. 22 of 2025 of 23
+  September 2025, saved from the Law Society of South Africa's site; the department's
+  site carried only the amended version of 30 September 2025 (also saved, official).
+- procedural act, official (3): the gazetted points-based system notice of 9 October
+  2024 and two notice texts of October 2024 (withdrawal and new criteria) as the
+  department published them. They set the criteria adjudicators apply.
+Formats: 30 PDF (many are scans without a text layer), 6 images, 1 Excel file, 1 web
+page. Files whose date is known only to the month have a YYYY-MM prefix; dates of
+scanned documents were read from the page and two handwritten ones are uncertain (said
+in the title).
+
+Where the copies come from
+- www.dha.gov.za answers robots.txt with HTTP 403 to scripts, so the live site was not
+  used at all. All 33 DHA files were taken from the Internet Archive's captures of that
+  site (web.archive.org); they are the department's own files and are marked official =
+  yes, with the capture address in index.tsv. The list of what exists was built from the
+  archive's index of dha.gov.za (about 800 PDF addresses and the "Notices" pages).
+- www.gov.za (robots.txt allows the gazette files): 4 gazetted Minister's directives
+  (No. 15 of 2024, Nos. 20 and 21 of 2025, No. 10 of 2026).
+- www.lssa.org.za (robots.txt allows everything): 1 mirror copy.
+
+Sources checked that yielded nothing more
+- DHA site sections seen through the archive: Notices, Immigration Services (types of
+  visas, permanent residency, refugee status and asylum, Standing Committee for Refugee
+  Affairs, overstay and prohibition appeals), Statements and speeches, the /images/
+  PDFs, notices, gazettes, ZEP, LSP and Documents folders. Apart from the directives,
+  they hold legislation, gazette notices, forms, applicant checklists and requirement
+  lists (left out as applicant information), policy papers, tenders and vacancies.
+- No standard operating procedure for refugee reception offices, refugee status
+  determination, the Standing Committee for Refugee Affairs or the Refugee Appeals
+  Authority is published. A Director-General's directive of 28 September 2026 to all
+  refugee reception offices on taking in asylum applications is known only from the
+  statement of 9 October 2026 announcing its withdrawal.
+- Government Printing Works (www.gpwonline.co.za): no robots.txt (404); not needed,
+  since www.gov.za carries the same gazettes.
+- Unofficial copies: law firms, advisers and universities republish individual
+  directives. They were used only for the one item above. Stellenbosch University's file
+  server answers robots.txt with HTTP 403 and was not used.
+
+Refusals met
+- www.dha.gov.za: HTTP 403 on robots.txt. Host not used; the script checks robots.txt
+  once per run and uses the live site only if that ever changes.
+- web.archive.org: no robots.txt (404). It throttled this machine throughout, refusing
+  the connection after roughly every ten requests. Requests were spaced 8 to 20 seconds
+  apart and each run stopped after three refusals in a row. One item is still missing
+  for this reason (see not-obtained.tsv); re-running the script later should fetch it.
+- files.su.ac.za: HTTP 403 on robots.txt; not used.
+- webarchive.archive.unhcr.org and www.refworld.org: HTTP 403 (bot check); not used.
+
+Completeness
+- The collection is what the department chose to publish and the Internet Archive
+  happened to capture. Directives published only briefly, or before about 2019, are
+  missing. Numbers cited in saved documents but not found are listed in not-obtained.tsv.
+- Seven gazette files in the department's folders were not opened, to spare the archive;
+  they may include further gazetted directives. Two notice pages (2020 and 2022) could
+  not be read because the archive refused the connection.
+- Because the live site could not be read, anything published on it since the archive's
+  last captures (September to October 2026) is not covered.
